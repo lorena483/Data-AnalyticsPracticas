@@ -79,7 +79,7 @@ INSERT INTO ventas (id_venta, id_cliente, id_producto, cantidad, precio_unitario
   ( 9, 4, 4, 1,  120.00, '2024-03-14'),
   (10, 5, 3, 2,  450.00, '2024-03-15');
 
-  -- === SECCION 4: VALIDACION ===
+-- === SECCION 4: VALIDACION ===
 SELECT * FROM categorias;   -- esperado: 4 filas
 SELECT * FROM clientes;     -- esperado: 5 filas
 SELECT * FROM productos;    -- esperado: 6 filas
